@@ -615,3 +615,137 @@
     text-transform: uppercase;
     font-size: 1rem;
 }
+
+/* ========== BIGB MOBILE RESPONSIVE ========== */
+@media (max-width: 768px) {
+    /* Navigation */
+    .bigb-logo {
+        font-size: 1.4rem;
+        letter-spacing: 1px;
+    }
+
+    nav .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .nav-links {
+        gap: 0.8rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+        .nav-links a {
+            font-size: 0.9rem;
+        }
+
+    /* Hero Section */
+    .bigb-projects-hero {
+        padding: 60px 20px 40px;
+    }
+
+    .bigb-hero-title {
+        font-size: 3rem;
+        letter-spacing: 4px;
+    }
+
+    .bigb-hero-subtitle {
+        font-size: 1rem;
+        letter-spacing: 2px;
+    }
+
+    .bigb-intro-text {
+        font-size: 1rem;
+    }
+
+    /* BigB Main Hero (bigb.html landing) */
+    .bigb-title {
+        font-size: 4rem;
+        letter-spacing: -2px;
+    }
+
+    .bigb-tagline {
+        font-size: 1rem;
+        letter-spacing: 2px;
+    }
+
+    .bigb-hero {
+        padding: 60px 20px 40px;
+    }
+
+    /* Section Titles */
+    .bigb-section-title {
+        font-size: 1.4rem;
+        letter-spacing: 2px;
+        margin: 40px 0 25px;
+        text-align: center;
+    }
+
+    /* About Blocks */
+    .bigb-about-block {
+        padding: 25px;
+        margin-bottom: 30px;
+    }
+
+    .bigb-block-title {
+        font-size: 1.4rem;
+    }
+
+    .bigb-block-text,
+    .bigb-list li {
+        font-size: 1rem;
+    }
+
+    /* Contact Form */
+    .bigb-form-container {
+        padding: 25px;
+    }
+
+    .bigb-contact-card {
+        padding: 20px;
+    }
+
+    /* Poems */
+    .poem-card {
+        padding: 25px;
+        max-height: none;
+    }
+
+    .poem-title {
+        font-size: 1.4rem;
+    }
+
+    .poem-text {
+        font-size: 1rem;
+    }
+
+    /* CTA Button */
+    .bigb-cta .bigb-btn {
+        padding: 14px 30px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .bigb-hero-title {
+        font-size: 2.3rem;
+        letter-spacing: 2px;
+    }
+
+    .bigb-title {
+        font-size: 3rem;
+    }
+
+    .nav-links {
+        gap: 0.5rem;
+    }
+
+        .nav-links a {
+            font-size: 0.85rem;
+        }
+
+    .bigb-logo {
+        font-size: 1.2rem;
+    }
+}
